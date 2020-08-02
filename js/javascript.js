@@ -1446,7 +1446,7 @@ function op25(){
     "<body>\n"+
     "<p>blockquote</p>\n"+
     "<blockquote cite='http://www.worldwildlife.org/who/index.html'> India, country that occupies the greater part of South Asia</blockquote>\n"+
-    "<p>Abbrevations</p>\n"+
+    "<p><q>Abbrevations</q></p>\n"+
     "<p>The <abbr title='World Health Organization'>WHO</abbr> was founded in 1948.</p>\n"+
     "<p>Cite</p>\n"+
     "<p>Painting was made by<cite>Jackson Pollock</cite></p>\n"+

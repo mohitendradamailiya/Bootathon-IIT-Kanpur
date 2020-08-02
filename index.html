@@ -22,7 +22,7 @@
                     <div class="col-sm-1" id="nav">
                         <i class="fa fa-home" style="font-size:36px"></i>
                     </div>
-                    <div class="col-sm-2" style="background-color: rgb(111, 223, 111);">
+                    <div class="col-sm-2" style="background-color: chartreuse;">
                         <h4 >Run>></h4>
                     </div>
                     <div class="col-sm-9"></div>
@@ -30,7 +30,7 @@
 
 
                 <div class="row">
-                    <div class="col-sm-3" style="background-color: rgb(111, 223, 111);border: 1px solid black;height: 525px;" id="scroll">
+                    <div class="col-sm-3" style="background-color: chartreuse;;border: 0px solid black;height: 525px;" id="scroll">
                         <a href="#" style="text-decoration: none;color: black;" onclick="f1();"><h5 id="l1" onclick="op1();" style="padding-left: 10px;padding-top: 10px;">Introduction</h5></a>
                         <a href="#" style="text-decoration: none;color: black;" onclick="f2();"><h5 id="l2" style="padding-left: 10px;">Anchor Tag</h5></a>
                         <a href="#" style="text-decoration: none;color: black;" onclick="f3();"><h5 id="l3" style="padding-left: 10px;">Button Tag</h5></a>
@@ -64,7 +64,7 @@
                         <a href="#" style="text-decoration: none;color: black;" onclick="f31();"><h5 id="l31" style="padding-left: 10px;">Table Tag</h5></a>
                         <a href="#" style="text-decoration: none;color: black;" onclick="f32();"><h5 id="l32" style="padding-left: 10px;">Video Tag</h5></a>
                     </div>
-                    <div class="col-sm-9" style="width: 73%;margin-left: 10px;">
+                    <div class="col-sm-9" style="height: 525px;width: 73%;margin-left: 10px;background-color: chartreuse;" id="scroll1" >
                         <div class="row" style="display: block;" id="div1" >
                             <div class="col-sm-12" >
                                 <h2><u>What is HTML?</u></h2>
@@ -82,56 +82,64 @@
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2><u>Anchor Tag</u></h2>
                                 <p>The <xmp><a></xmp> tag defines a hyperlink, which is used to link from one page to another.The most important attribute of the <xmp><a></xmp> element is the href attribute, which indicates the link's destination.</p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op2();">Try it...</a>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op2();">Try it...</a>
                             </div>
                         </div>            
                         <div class="row" style="display: none;" id="div3">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Button Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op3();">Try it...</a>
+                                <p>The <xmp><button></xmp> tag defines a clickable button. Inside a <xmp><button></xmp> element you can put text (and tags like <xmp><i></xmp><xmp><strong></xmp><xmp><br></xmp><xmp><img></xmp> etc.). This is not possible with a button created with the<xmp><input></xmp> element!<br>Tip: Always specify the type attribute for a <xmp><button></xmp> element, to tell browsers what type of button it is.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op3();">Try it...</a>
                             </div>
                         </div>                        
                         <div class="row" style="display: none;" id="div4">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Center Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op4();">Try it...</a>
+                                <p>The <xmp><center></xmp> tag is a block-level element, which means it can contain other block-level and inline elements. The content of the<xmp><center></xmp> tag (text, graphic elements, tables and so on) is aligned to the center.The<xmp><center></xmp> is a deprecated HTML tag and not supported in HTML5. Instead, use the CSS text-align property which is applied to the <xmp><div></xmp>element or to <xmp><p></xmp>When text-align: center is applied to <xmp><div></xmp> or <xmp><p></xmp>the contents of these elements will be centered, but their total dimensions won’t change.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op4();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div5">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Details Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op5();">Try it...</a>
+                                <p>The <xmp><details></xmp> tag specifies additional details that the user can open and close on demand.The <xmp><details></xmp> tag is often used to create an interactive widget that the user can open and close. By default, the widget is closed. When open, it expands, and displays the content within.Any sort of content can be put inside the <xmp><details></xmp> tag.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op5();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div6">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Footer Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op6();">Try it...</a>
+                                <p>The <xmp><footer></xmp> tag defines a footer for a document or section.A <xmp><footer></xmp>element typically contains:<br>* authorship information<br>* copyright information<br>* contact information<br>* sitemap<br>* back to top links<br>* related documents</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op6();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div7">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Form Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op7();">Try it...</a>
+<p>The <xmp><form></xmp> tag is used to create an HTML form for user input.The <xmp><form></xmp> element can contain one or more of the following form elements:<xmp><input></xmp><xmp><textarea></xmp><xmp><button></xmp><xmp><select></xmp><xmp><option></xmp><xmp><optgroup></xmp><xmp><fieldset></xmp><xmp><label></xmp><xmp><output></xmp></p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op7();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div8">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Frame Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op8();">Try it...</a>
+<p>Not Supported in HTML5.The <xmp><frame></xmp> tag was used in HTML 4 to define one particular window (frame) within a <xmp><frameset></xmp>.Use the <xmp><iframe></xmp> tag to embed another document within the current HTML document
+</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op8();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div9">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2><u>Heading Tag</u></h2>
                                 <p>HTML defines six levels of headings. A heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading. The heading elements are H1, H2, H3, H4, H5, and H6 with H1 being the highest (or most important) level and H6 the least</p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op9();">Try it...</a>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op9();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div10">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Textarea Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op10();">Try it...</a>
+<p>The <xmp><textarea></xmp> tag defines a multi-line text input control.The <xmp><textarea></xmp> element is often used in a form, to collect user inputs like comments or reviews.A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).The size of a text area is specified by the <xmp><cols></xmp> and <xmp><rows></xmp> attributes (or with CSS).The name attribute is needed to reference the form data after the form is submitted (if you omit the name attribute, no data from the text area will be submitted).The id attribute is needed to associate the text area with a label.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op10();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div11">
@@ -149,13 +157,14 @@
                                         <li>alt - Specifies an alternate text for the image</li>
                                     </ul>
                                 </p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op11();">Try it...</a>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op11();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div12">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Input Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op12();">Try it...</a>
+<p>The <xmp><input></xmp> tag specifies an input field where the user can enter data.The <xmp><input></xmp> element is the most important form element.The <xmp><input></xmp> element can be displayed in several ways, depending on the type attribute.The different input types are as follows:<xmp><input type="button"></xmp><xmp><input type="checkbox"></xmp><xmp><input type="color"></xmp><xmp><input type="date"></xmp><xmp><input type="datetime-local"></xmp><xmp><input type="email"></xmp><xmp><input type="file"></xmp><xmp><input type="hidden"></xmp><xmp><input type="image"></xmp><xmp><input type="month"></xmp><xmp><input type="number"></xmp><xmp><input type="password"></xmp><xmp><input type="radio"></xmp><xmp><input type="range"></xmp><xmp><input type="reset"></xmp><xmp><input type="search"></xmp><xmp><input type="submit"></xmp><xmp><input type="tel"></xmp><xmp><input type="text"> (default value)</xmp><xmp><input type="time"></xmp><xmp><input type="url"></xmp><xmp><input type="week"></xmp><p/>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op12();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div13">
@@ -173,133 +182,175 @@
                                     <li><xmp><sub></xmp> - Subscript text</li>
                                     <li><xmp><sup></xmp> - Superscript text</li>
                                 </ul>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op13();">Try it...</a>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op13();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div14">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Label Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op14();">Try it...</a>
+<p>The <xmp><label></xmp> tag defines a label for several elements:<xmp>* <input type="checkbox"></xmp><xmp>* <input type="color"></xmp><xmp>* <input type="date"></xmp>
+<xmp>* <input type="datetime-local"></xmp>
+<xmp>* <input type="email"></xmp>
+<xmp>* <input type="file"></xmp>
+<xmp>* <input type="month"></xmp>
+<xmp>* <input type="number"></xmp>
+<xmp>* <input type="password"></xmp>
+<xmp>* <input type="radio"></xmp>
+<xmp>* <input type="range"></xmp>
+<xmp>* <input type="search"></xmp>
+<xmp>* <input type="tel"></xmp>
+<xmp>* <input type="text"></xmp>
+<xmp>* <input type="time"></xmp>
+<xmp>* <input type="url"></xmp>
+<xmp>* <input type="week"></xmp>
+<xmp>* <meter></xmp>
+<xmp>* <progress></xmp>
+<xmp>* <select></xmp>
+<xmp>* <textarea></xmp>Proper use of labels with the elements above will benefit:
+<ul><li>Screen reader users (will read out loud the label, when the user is focused on the element)</li><li>Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the <xmp><label></xmp> element, it toggles the input (this increases the hit area). 
+</li></ul></p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op14();">Try it...</a>
                             </div>
                         </div>  
                         <div class="row" style="display: none;" id="div15">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Links Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op15();">Try it...</a>
+<p>The <xmp><link></xmp> tag defines the relationship between the current document and an external resource.The <xmp><link></xmp> tag is most often used to link to external style sheets.The <xmp><link></xmp> element is an empty element, it contains attributes only.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op15();">Try it...</a>
                             </div>
                         </div>          
                         <div class="row" style="display: none;" id="div16">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>List Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op16();">Try it...</a>
+<p>HTML lists allow web developers to group a set of related items in lists.<h3>Unordered HTML List</h3>
+An unordered list starts with the <xmp><ul></xmp> tag. Each list item starts with the <xmp><li></xmp> tag.The list items will be marked with bullets (small black circles) by default. <br><h3>Ordered HTML List</h3>
+An ordered list starts with the <xmp><ol></xmp> tag. Each list item starts with the <xmp><li></xmp> tag.The list items will be marked with numbers by default.HTML also supports description lists.A description list is a list of terms, with a description of each term.The <xmp><dl></xmp> tag defines the description list, the <xmp><dt></xmp> tag defines the term (name), and the <xmp><dd></xmp> tag describes each term</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op16();">Try it...</a>
                             </div>
                         </div>  
                         <div class="row" style="display: none;" id="div17">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Navigation Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op17();">Try it...</a>
+<p>The HTML <xmp><nav></xmp> element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op17();">Try it...</a>
                             </div>
                         </div>  
                         <div class="row" style="display: none;" id="div18">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Marquee Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op18();">Try it...</a>
+<p>Marquee is one of the important tags introduced in HTML to support such scrollable texts and images within a web page. In this , you will be learning about the Marquee tag and its different attributes for developing a well-groomed static website.The <xmp><marquee></xmp> tag is a container tag of HTML is implemented for creating scrollable text or images within a web page from either left to right or vice versa, or top to bottom or vice versa. But this tag has been deprecated in the new version of HTML, i.e., HTML 5.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op18();">Try it...</a>
                             </div>
                         </div>  
                         <div class="row" style="display: none;" id="div19">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Meta Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op19();">Try it...</a>
+<p>The <xmp><meta></xmp> tag defines metadata about an HTML document. Metadata is data (information) about data.<xmp><meta></xmp> tags always go inside the <xmp><head></xmp> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.Metadata will not be displayed on the page, but is machine parsable.Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.There is a method to let web designers take control over the viewport (the user's visible area of a web page), through the <xmp><meta></xmp> tag</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op19();">Try it...</a>
                             </div>
                         </div>  
                         <div class="row" style="display: none;" id="div20">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Option Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op20();">Try it...</a>
+<p>The <xmp><option></xmp> tag defines an option in a select list.<xmp><option></xmp> elements go inside a <xmp><select></xmp><xmp><optgroup></xmp><xmp><datalist></xmp> element.<h3>Note:</h3> The <xmp><option></xmp> tag can be used without any attributes, but you usually need the value attribute, which indicates what is sent to the server on form submission.
+<h3>Tip:</h3> If you have a long list of options, you can group related options within the <xmp><optgroup></xmp> tag</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op20();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div21">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Output Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op21();">Try it...</a>
+<p>The <xmp><output></xmp> tag is used to represent the result of a calculation (like one performed by a script).
+
+</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op21();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div22" >
                             <div class="col-sm-12" style="text-align: justify;" >
                                 <h2><u>Paragraph Tag</u></h2>
                                 <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op22();">Try it...</a>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op22();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div23" >
                             <div class="col-sm-12" style="text-align: justify;" >
                                 <h2><u>Underline Tag</u></h2>
-                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op23();">Try it...</a>
+                                <p>The <xmp><u></u></xmp> tag represents some text that is unarticulated and styled differently from normal text, such as misspelled words or proper names in Chinese text. The content inside is typically displayed with an underline.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op23();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div24" >
                             <div class="col-sm-12" style="text-align: justify;" >
                                 <h2><u>Pre Tag</u></h2>
-                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op24();">Try it...</a>
+                                <p>The <xmp><pre></xmp> tag defines preformatted text.Text in a <xmp><pre></xmp> element is displayed in a fixed-width font, and the text preserves both spaces and line breaks. The text will be displayed exactly as written in the HTML source code.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op24();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div25">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Quotation Tag</h2>
-                                <p>The <xmp><a></xmp> tag defines a hyperlink, which is used to link from one page to another.The most important attribute of the <xmp><a></xmp> element is the href attribute, which indicates the link's destination.</p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op25();">Try it...</a>
+                                <p>The HTML <xmp><blockquote> </xmp>element defines a section that is quoted from another source.<xmp>Browsers usually indent <blockquote> elements</xmp></p>                               
+                                    <p><xmp>The HTML <q> tag</xmp> defines a short quotation.Browsers normally insert quotation marks around the quotation.
+                                        <xmp>The HTML <abbr> tag</xmp> defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+                                        <xmp>The HTML <cite> tag</xmp> defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+                                    </p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op25();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div26" >
                             <div class="col-sm-12" style="text-align: justify;" >
                                 <h2><u>Dialog Tag</u></h2>
-                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op26();">Try it...</a>
+                                <p>The <xmp><dialog></xmp> tag defines a dialog box or subwindow. The <xmp><dialog> </xmp>element makes it easy to create popup dialogs and modals on a web page.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op26();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div27" >
                             <div class="col-sm-12" style="text-align: justify;" >
                                 <h2><u>Section Tag</u></h2>
-                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op27();">Try it...</a>
+                                <p>The <xmp><section></xmp> tag defines a section in a document.The <xmp><section></xmp> tag also supports the Global Attributes in HTML.The <xmp><section></xmp> tag also supports the Event Attributes in HTML.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op27();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div28" >
                             <div class="col-sm-12" style="text-align: justify;" >
                                 <h2><u>Select Tag</u></h2>
-                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op28();">Try it...</a>
+                                <p>The <xmp><select></xmp> element is used to create a drop-down list.The <xmp><select></xmp> element is most often used in a form, to collect user input.The name attribute is needed to reference the form data after the form is submitted (if you omit the name attribute, no data from the drop-down list will be submitted).The id attribute is needed to associate the drop-down list with a label.The <xmp><option></xmp> tags inside the <xmp><select></xmp> element define the available options in the drop-down list.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op28();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div29" >
                             <div class="col-sm-12" style="text-align: justify;" >
                                 <h2><u>Span Tag</u></h2>
-                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op29();">Try it...</a>
+                                <p>The <xmp><span></xmp> tag is an inline container used to mark up a part of a text, or a part of a document.The <xmp><span></xmp> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.The <xmp><span></xmp> tag is much like the <xmp><div></xmp> element, but <xmp><div></xmp> is a block-level element and <xmp><span></xmp> is an inline element.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op29();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div30" >
                             <div class="col-sm-12" style="text-align: justify;" >
                                 <h2><u>Style Tag</u></h2>
-                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op30();">Try it...</a>
+                                <p>The <xmp><style></style></xmp> tag is used to define style information (CSS) for a document.Inside the <xmp><style></style></xmp> element you specify how HTML elements should render in a browser.
+<h3>Note:</h3> When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet. If some properties have been defined for the same selector (element) in different style sheets, the value from the last read style sheet will be used!
+<h3>Tip:</h3> To link to an external style sheet, use the <link> tag.
+<h3>Tip:</h3> To learn more about style sheets, please read our CSS Tutorial.
+</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op30();">Try it...</a>
                             </div>
                         </div>
                         <div class="row" style="display: none;" id="div31">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Table Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op31();">Try it...</a>
+<p>The <xmp><table></xmp> tag defines an HTML table.An HTML table consists of one <xmp><table></xmp> element and one or more <xmp><tr>, <th>, and <td></xmp> elements.The <xmp><tr></xmp> element defines a table row, the <xmp><th></xmp> element defines a table header, and the <xmp><td></xmp> element defines a table cell.An HTML table may also include <xmp><caption>, <colgroup>, <thead>, <tfoot>, and <tbody></xmp> elements.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op31();">Try it...</a>
                             </div>
                         </div>                        
                         <div class="row" style="display: none;" id="div32">
                             <div class="col-sm-12" style="text-align: justify;">
                                 <h2>Video Tag</h2>
-                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op32();">Try it...</a>
+<p><xmp>The <video> tag is used to embed</xmp> video content in a document, such as a movie clip or other video streams.<xmp>The <video> tag contains one or more <source></xmp>tags with different video sources. The browser will choose the first source it supports.<xmp>The text between the <video> and </video></xmp>tags will only be displayed in browsers that <xmp>do not support the <video> element.</xmp></p>
+                                <a href="#" class="myButton" style="text-decoration: none;margin-bottom: 10px;" onclick="op32();">Try it...</a>
                             </div>
-                        </div>
-                        
+                        </div>                        
                     </div>
                 </div>
 

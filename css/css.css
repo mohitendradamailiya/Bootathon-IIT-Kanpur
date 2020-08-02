@@ -5,13 +5,17 @@ body{
 #scroll{
     overflow: auto;
 }
+#scroll1{
+    overflow: auto;
+}
 #output{
     overflow: auto;
     background-color: white;
 }
 
 #ed{
-    color: green;
+    color: chartreuse;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #l1:hover{
     text-decoration: none;
