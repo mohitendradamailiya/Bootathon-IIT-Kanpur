@@ -7,12 +7,7 @@
         <link type="text/css" rel="stylesheet" href="D:/simulator/css/css.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script>
-            function compileHTML(field,e){
-                document.getElementById("output").innerHTML=field.value;
-            }
-        </script>
-
+        <script src="js/javascript.js"></script>
     </head>
 
     <body>
@@ -27,7 +22,7 @@
                     <div class="col-sm-1" id="nav">
                         <i class="fa fa-home" style="font-size:36px"></i>
                     </div>
-                    <div class="col-sm-2" style="background-color: green;">
+                    <div class="col-sm-2" style="background-color: rgb(111, 223, 111);">
                         <h4 >Run>></h4>
                     </div>
                     <div class="col-sm-9"></div>
@@ -35,98 +30,276 @@
 
 
                 <div class="row">
-                    <div class="col-sm-3">
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l1" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Introduction</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l2" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Paragraph Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l3" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Heading Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l4" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Attributes Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l5" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Image Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l6" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Formatting Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l7" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Quotations Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l8" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Links Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l9" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Table Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row"style="background-color: green;">
-                            <div class="col-sm-12" id="l10" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">List Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l11" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Meta Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l12" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Font Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l13" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Frames Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l14" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Marquee Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l15" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Blink Tag</h5></a>
-                            </div>
-                        </div>
-                        <div class="row" style="background-color: green;">
-                            <div class="col-sm-12" id="l15" style="color: honeydew;border: 1px solid black;" >
-                                <a href="" style="text-decoration: none;"><h5 style="color: white;padding-left: 10px;">Video Tag</h5></a>
-                            </div>
-                        </div>
+                    <div class="col-sm-3" style="background-color: rgb(111, 223, 111);border: 1px solid black;height: 525px;" id="scroll">
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f1();"><h5 id="l1" onclick="op1();" style="padding-left: 10px;padding-top: 10px;">Introduction</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f2();"><h5 id="l2" style="padding-left: 10px;">Anchor Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f3();"><h5 id="l3" style="padding-left: 10px;">Button Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f4();"><h5 id="l4" style="padding-left: 10px;">Center Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f5();"><h5 id="l5" style="padding-left: 10px;">Details Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f6();"><h5 id="l6" style="padding-left: 10px;">Footer Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f7();"><h5 id="l7" style="padding-left: 10px;">Form Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f8();"><h5 id="l8" style="padding-left: 10px;">Frame Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f9();"><h5 id="l9" style="padding-left: 10px;">Heading Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f10();"><h5 id="l10" style="padding-left: 10px;">Textarea Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f11();"><h5 id="l11" style="padding-left: 10px;">Image Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f12();"><h5 id="l12" style="padding-left: 10px;">Input Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f13();"><h5 id="l13" style="padding-left: 10px;">Formatting Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f14();"><h5 id="l14" style="padding-left: 10px;">Label Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f15();"><h5 id="l15" style="padding-left: 10px;">Links Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f16();"><h5 id="l16" style="padding-left: 10px;">List Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f17();"><h5 id="l17" style="padding-left: 10px;">Navigation Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f18();"><h5 id="l18" style="padding-left: 10px;">Marquee Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f19();"><h5 id="l19" style="padding-left: 10px;">Meta Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f20();"><h5 id="l20" style="padding-left: 10px;">Option Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f21();"><h5 id="l21" style="padding-left: 10px;">Output Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f22();"><h5 id="l22" style="padding-left: 10px;">Paragraph Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f23();"><h5 id="l23" style="padding-left: 10px;">Underline Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f24();"><h5 id="l24" style="padding-left: 10px;">Pre Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f25();"><h5 id="l25" style="padding-left: 10px;">Quotations Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f26();"><h5 id="l26" style="padding-left: 10px;">Dialog Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f27();"><h5 id="l27" style="padding-left: 10px;">Section Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f28();"><h5 id="l28" style="padding-left: 10px;">Select Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f29();"><h5 id="l29" style="padding-left: 10px;">Span Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f30();"><h5 id="l30" style="padding-left: 10px;">Style Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f31();"><h5 id="l31" style="padding-left: 10px;">Table Tag</h5></a>
+                        <a href="#" style="text-decoration: none;color: black;" onclick="f32();"><h5 id="l32" style="padding-left: 10px;">Video Tag</h5></a>
                     </div>
                     <div class="col-sm-9" style="width: 73%;margin-left: 10px;">
-                            <h2>What is HTML?</h2>
-                            <ul>
-                                <li>HTML stands for Hyper Text Markup Language.</li>
-                                <li>HTML is the standard markup language for creating Web pages.</li>
-                                <li>HTML describes the structure of a Web page.</li>
-                                <li>HTML consists of a series of elements.</li>
-                                <li>HTML elements tell the browser how to display the content.</li>
-                                <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
-                            </ul>
+                        <div class="row" style="display: block;" id="div1" >
+                            <div class="col-sm-12" >
+                                <h2><u>What is HTML?</u></h2>
+                                <ul>
+                                    <li>HTML stands for Hyper Text Markup Language.</li>
+                                    <li>HTML is the standard markup language for creating Web pages.</li>
+                                    <li>HTML describes the structure of a Web page.</li>
+                                    <li>HTML consists of a series of elements.</li>
+                                    <li>HTML elements tell the browser how to display the content.</li>
+                                    <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div2">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2><u>Anchor Tag</u></h2>
+                                <p>The <xmp><a></xmp> tag defines a hyperlink, which is used to link from one page to another.The most important attribute of the <xmp><a></xmp> element is the href attribute, which indicates the link's destination.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op2();">Try it...</a>
+                            </div>
+                        </div>            
+                        <div class="row" style="display: none;" id="div3">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Button Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op3();">Try it...</a>
+                            </div>
+                        </div>                        
+                        <div class="row" style="display: none;" id="div4">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Center Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op4();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div5">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Details Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op5();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div6">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Footer Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op6();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div7">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Form Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op7();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div8">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Frame Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op8();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div9">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2><u>Heading Tag</u></h2>
+                                <p>HTML defines six levels of headings. A heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading. The heading elements are H1, H2, H3, H4, H5, and H6 with H1 being the highest (or most important) level and H6 the least</p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op9();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div10">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Textarea Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op10();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div11">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2><u>Image Tag</u></h2>
+                                <p>The HTML <xmp><img></xmp> tag is used to embed an image in a web page.
+
+                                    Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.
+                                    
+                                    The <xmp><img></xmp>  tag is empty, it contains attributes only, and does not have a closing tag.<br/>
+                                    
+                                    The <xmp><img></xmp>  tag has two required attributes:
+                                    <ul>
+                                        <li>src - Specifies the path to the image</li>
+                                        <li>alt - Specifies an alternate text for the image</li>
+                                    </ul>
+                                </p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op11();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div12">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Input Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op12();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div13">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2><u>Formatting Tag</u></h2>
+                                <p>Formatting elements were designed to display special types of text:</p>
+                                <ul>
+                                    <li><xmp><b></xmp> - Bold text</li>
+                                    <li><xmp><i></xmp> - Italic text</li>
+                                    <li><xmp><strong></xmp> - Important text</li>
+                                    <li><xmp><mark></xmp> - Marked text</li>
+                                    <li><xmp><small></xmp> - Smaller text</li>
+                                    <li><xmp><del></xmp> - Deleted text</li>
+                                    <li><xmp><ins></xmp> - Inserted text</li>
+                                    <li><xmp><sub></xmp> - Subscript text</li>
+                                    <li><xmp><sup></xmp> - Superscript text</li>
+                                </ul>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op13();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div14">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Label Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op14();">Try it...</a>
+                            </div>
+                        </div>  
+                        <div class="row" style="display: none;" id="div15">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Links Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op15();">Try it...</a>
+                            </div>
+                        </div>          
+                        <div class="row" style="display: none;" id="div16">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>List Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op16();">Try it...</a>
+                            </div>
+                        </div>  
+                        <div class="row" style="display: none;" id="div17">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Navigation Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op17();">Try it...</a>
+                            </div>
+                        </div>  
+                        <div class="row" style="display: none;" id="div18">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Marquee Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op18();">Try it...</a>
+                            </div>
+                        </div>  
+                        <div class="row" style="display: none;" id="div19">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Meta Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op19();">Try it...</a>
+                            </div>
+                        </div>  
+                        <div class="row" style="display: none;" id="div20">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Option Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op20();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div21">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Output Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op21();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div22" >
+                            <div class="col-sm-12" style="text-align: justify;" >
+                                <h2><u>Paragraph Tag</u></h2>
+                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op22();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div23" >
+                            <div class="col-sm-12" style="text-align: justify;" >
+                                <h2><u>Underline Tag</u></h2>
+                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op23();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div24" >
+                            <div class="col-sm-12" style="text-align: justify;" >
+                                <h2><u>Pre Tag</u></h2>
+                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op24();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div25">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Quotation Tag</h2>
+                                <p>The <xmp><a></xmp> tag defines a hyperlink, which is used to link from one page to another.The most important attribute of the <xmp><a></xmp> element is the href attribute, which indicates the link's destination.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op25();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div26" >
+                            <div class="col-sm-12" style="text-align: justify;" >
+                                <h2><u>Dialog Tag</u></h2>
+                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op26();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div27" >
+                            <div class="col-sm-12" style="text-align: justify;" >
+                                <h2><u>Section Tag</u></h2>
+                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op27();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div28" >
+                            <div class="col-sm-12" style="text-align: justify;" >
+                                <h2><u>Select Tag</u></h2>
+                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op28();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div29" >
+                            <div class="col-sm-12" style="text-align: justify;" >
+                                <h2><u>Span Tag</u></h2>
+                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op29();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div30" >
+                            <div class="col-sm-12" style="text-align: justify;" >
+                                <h2><u>Style Tag</u></h2>
+                                <p>The HTML <xmp> <p> </xmp> element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op30();">Try it...</a>
+                            </div>
+                        </div>
+                        <div class="row" style="display: none;" id="div31">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Table Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op31();">Try it...</a>
+                            </div>
+                        </div>                        
+                        <div class="row" style="display: none;" id="div32">
+                            <div class="col-sm-12" style="text-align: justify;">
+                                <h2>Video Tag</h2>
+                                <a href="#" class="myButton" style="text-decoration: none;" onclick="op32();">Try it...</a>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
 
@@ -140,12 +313,20 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12" style="display:flex;">
-                        <textarea style="flex: 1;height: 300px;width: 100%;border: 1px solid black;margin-top: 10px;margin-right: 20px;" placeholder="HTML Code..." onkeyup="compileHTML(this)" ></textarea>
+                        <textarea id="textarea" style="flex: 1;height: 250px;width: 100%;border: 1px solid black;margin-top: 10px;margin-right: 20px;" onkeyup="compileHTML(this)" >
+<!DOCTYPE html>
+<html>
+<body>
+<p>My first HTML Page</p>
+</body>
+</html>
+                        </textarea>
                     </div>
                 </div>
-                <div id="output"  style="padding:15px;width: 96%;border: 1px solid black;margin-top: 10px;" >OUTPUT Area:</div>
+                <h4 style="color: red;">Click on the above Textarea and <b>press Enter</b>..</h4>
+                <h4 style="color: green;"><b>O/P>></b></h4>
+                <div id="output"  style="padding:15px;height: 200px;;width: 96%;border: 1px solid black;margin-top: 10px;" >OUTPUT Area:</div>
             </div>
-        </div>
-        
+        </div>        
     </body>
 </html>
