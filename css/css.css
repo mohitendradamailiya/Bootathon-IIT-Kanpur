@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: #ebf5ff;
 }
 
 #scroll{
@@ -14,155 +14,155 @@ body{
 }
 
 #ed{
-    color: chartreuse;
+    color: #222222;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #l1:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l2:hover{
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
     text-decoration: none;
 }
 #l3:hover{
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
     text-decoration: none;
 }
 #l4:hover{
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
     text-decoration: none;
 }
 #l5:hover{
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
     text-decoration: none;
 }
 #l6:hover{
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
     text-decoration: none;
 }
 #l7:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l8:hover{
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
     text-decoration: none;
 }
 #l9:hover{
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
     text-decoration: none;
 }
 #l10:hover{
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
     text-decoration: none;
 }
 #l11:hover{
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
     text-decoration: none;
 }
 #l12:hover{
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
     text-decoration: none;
 }
 #l13:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l14:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l15:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l16:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l17:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l18:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l19:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l20:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l21:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l22:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l23:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l24:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l25:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l26:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l27:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l28:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l29:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l30:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l31:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 #l32:hover{
     text-decoration: none;
-    background-color: rgb(105, 255, 143);
+    background-color: #eba0a0;
 }
 
 .myButton {
-	background-color:#44c767;
+	background-color:#7db7ff;
 	border-radius:28px;
-	border:1px solid #18ab29;
+	border:1px solid #7db7ff;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:17px;
-	padding:16px 31px;
+	padding:10px 20px;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
+    text-shadow:0px 1px 0px #7db7ff;
     float: right;
     text-decoration: none;
 }
 .myButton:hover {
-    background-color:#5cbf2a;
+    background-color:#5e9deb;
     text-decoration: none;
 }
 .myButton:active {
